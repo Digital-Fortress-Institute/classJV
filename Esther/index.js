@@ -18,12 +18,12 @@
 // let message=`Hello, my favorite color is ${color}, amd my favorite animal is ${animal}`;
 // console.log (message)
 
-// let currentYear = parseInt (prompt('Enter current year'));
-// let firstName =  prompt('Enter your first name');
-// let birthYear = parseInt (prompt('Enter your birth year'));
-// let age = prompt(`${currentYear} - ${birthYear}`);
-// let message =`Hello, ${firstName} ! You are ${age} years old.`;
-// console.log (message)
+let currentYear = (2024 );
+let firstName =  prompt('Enter your first name');
+let birthYear = parseInt (prompt('Enter your birth year'));
+let age = currentYear - birthYear;
+let message =`Hello, ${firstName} ! You are ${age} years old.`;
+console.log (message)
 
 // let HomeTown =prompt('Enter your home twon');
 // let food =prompt('Enter your favorite food');
@@ -55,8 +55,8 @@
 // let message=`When i was in school, my favorite subject was ${subject}, and i always have ${grade} in it`;
 // console.log(message)
 
-let sport =prompt('Enter your favorite sport');
-let season =prompt('Enter the season');
-let message=`My favourite sport is ${sport}, and its played during the ${season}`;
-console.log(message)
+// let sport =prompt('Enter your favorite sport');
+// let season =prompt('Enter the season');
+// let message=`My favourite sport is ${sport}, and its played during the ${season}`;
+// console.log(message)
 
