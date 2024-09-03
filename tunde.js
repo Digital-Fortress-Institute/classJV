@@ -40,7 +40,7 @@
 // let firtName = prompt("Enter your first name");
 // let lastName = prompt('Enter your last name');
 // console.log(`${firtName} ${lastName}`);
-let firstNumber = parseInt(prompt('Enter your first number'));
-let secondNumber = parseInt(prompt('Enter your second number'));
-console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`)
+// let firstNumber = parseInt(prompt('Enter your first number'));
+// let secondNumber = parseInt(prompt('Enter your second number'));
+// console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`)
 
