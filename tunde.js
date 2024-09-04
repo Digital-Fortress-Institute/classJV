@@ -135,7 +135,7 @@ let myData = [
     },
     {
         name:'Esther',
-        city:'Ekiti',
+        city:['Ekiti', 'Yola', 'Ogun', 'Osun'],
         LGA:'Akoko'
     },
     {
@@ -149,7 +149,7 @@ let myData = [
         LGA:'Rivers'
     },
 ]
-console.log(myData)
+console.log(myData[2]['city'][2])
 
 
 
