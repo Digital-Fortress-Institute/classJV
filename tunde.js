@@ -18,8 +18,8 @@
 // // let mistura  = 90;
 // console.log(mistura)
 // const myClass= 20;
-// // ++myClass
-// // const myClass = 30;
+// ++myClass
+// const myClass = 30;
 // console.log(myClass)
 // let x = 10;
 // ----------concartination-------
