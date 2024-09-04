@@ -29,9 +29,8 @@
 // let fullName2 = 'My name is '+ firstName+ ' '+ lastName
 // console.log(fullName)
 // console.log(fullName2)
-
 // concartination with template litreals
-// let fullName = `Hello, Mr ${firstName} ${lastName}.I hope your are doing good today?`;
+//let fullName = `Hello, Mr ${firstName} ${lastName}.I hope your are doing good today?`;
 // console.log(fullName)
 
 
