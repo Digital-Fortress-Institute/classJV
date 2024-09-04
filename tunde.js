@@ -29,9 +29,8 @@
 // let fullName2 = 'My name is '+ firstName+ ' '+ lastName
 // console.log(fullName)
 // console.log(fullName2)
-
 // concartination with template litreals
-// let fullName = `Hello, Mr ${firstName} ${lastName}.I hope your are doing good today?`;
+//let fullName = `Hello, Mr ${firstName} ${lastName}.I hope your are doing good today?`;
 // console.log(fullName)
 
 
@@ -40,7 +39,7 @@
 // let firtName = prompt("Enter your first name");
 // let lastName = prompt('Enter your last name');
 // console.log(`${firtName} ${lastName}`);
-let firstNumber = parseInt(prompt('Enter your first number'));
-let secondNumber = parseInt(prompt('Enter your second number'));
-console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`)
+// let firstNumber = parseInt(prompt('Enter your first number'));
+// let secondNumber = parseInt(prompt('Enter your second number'));
+// console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`)
 
