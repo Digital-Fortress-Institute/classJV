@@ -7,11 +7,11 @@
 
 // syntax used in setting variables in javascripts;
 
-var x = 10;
+// var x = 10;
 
-var x = 30;
-console.log(x)
-++x
+// var x = 30;
+// console.log(x)
+// ++x
 
 // let mistura = 50;
 // ++mistura
@@ -42,7 +42,7 @@ console.log(x)
 // let firstNumber = parseInt(prompt('Enter your first number'));
 // let secondNumber = parseInt(prompt('Enter your second number'));
 // console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`)
-<<<<<<< HEAD
+
 
 
 // let firstName = prompt('Enter your first name');
@@ -80,7 +80,76 @@ console.log(x)
 // Strings: this data type is alphanumeric data. 
 
 let address = '107, Herbert Macauly Way, Off \'University\' Road, Akoka Yaba, Lagos State';
-console.log(address)
+
+let person = "Mr John lives in "
+console.log(typeof(address));
+// console.log(address[5]);
+// console.log(address.slice(0, 30));
+// console.log(address.toUpperCase());
+// console.log(address.toLowerCase());
+// console.log(address.replace('Lagos', 'Ogun'));
+// console.log(address.length);
+// console.log(address.lastIndexOf('e'));
+// let x = address.split(' ');
+// console.log(x);
+// x.pop()
+// x.shift()
+// x.push('Purple');
+// x.unshift('Mango');
+// console.log(x);
+
+// console.log(x.reverse().join(' '));
+// console.log(person.concat(address));
+
+// console.log(address.includes('Yaba'));
+// console.log(address.indexOf('H'))
+
+
+
+
+
+// array data types
+
+let myColor = ['red', 'blue', 'orange', 'gold', 'pink']
+// pop();
+// shift();
+// unshift();
+// reverse();
+// let x = myColor[1]
+// console.log(x)
+// myColor.splice(3, 0, 'Welcome')
+// console.log(myColor)
+
+
+let myData = [
+    {
+        name:'John',
+        city:'Lagos',
+        LGA:'Mushin'
+    },
+    {
+        name:'Tola',
+        city:'Ogun',
+        img: './hero-abs-2.png',
+        LGA:'Ifo'
+    },
+    {
+        name:'Esther',
+        city:'Ekiti',
+        LGA:'Akoko'
+    },
+    {
+        name:'Mistura',
+        city:'Ilaro',
+        LGA:'Ede'
+    },
+    {
+        name:'Emeka',
+        city:'Abia',
+        LGA:'Rivers'
+    },
+]
+console.log(myData)
 
 
 
@@ -97,6 +166,6 @@ console.log(address)
 
 
 
-=======
->>>>>>> 699b3fd2b1879795f7a991c185c2f31bba26b299
+
+
 
