@@ -39,6 +39,7 @@
 // let firtName = prompt("Enter your first name");
 // let lastName = prompt('Enter your last name');
 // console.log(`${firtName} ${lastName}`);
+<<<<<<< HEAD
 // let firstNumber = parseInt(prompt('Enter your first number'));
 // let secondNumber = parseInt(prompt('Enter your second number'));
 // console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`)
@@ -310,4 +311,9 @@ if(score == 'A'){
 
 
 
+=======
+let firstNumber = parseInt(prompt('Enter your first number'));
+let secondNumber = parseInt(prompt('Enter your second number'));
+console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`)
+>>>>>>> a19004de94df475ee45ef7f57825033616f765d9
 
