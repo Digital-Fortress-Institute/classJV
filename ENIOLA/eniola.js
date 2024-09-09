@@ -78,15 +78,102 @@
 
 // Number11
 // let favoritesubject= prompt('Enter your  favorite subject');
- // let grade = prompt('Enter your grade level');
- // console.log(`${favoritesubject} ${gradelevel}`);
+//  let grade = prompt('Enter your grade level');
+//  console.log(`${favoritesubject} ${gradelevel}`);
 // let full = `My favourite subject is ${favoritesubject} am im leavel ${gradelevel}`;
- // console.log(full)
+//  console.log(full);
 
 
 // Number12
- let favoritesport = prompt('Enter your  favorite sport');
-let season = prompt('Enter the season');
-console.log(`${favoritesport} ${season}`);
-let full = `My favourite sport is ${favoritesport}which is play every ${season}`;
-console.log(full)
+//  let favoritesport = prompt('Enter your  favorite sport');
+// let season = prompt('Enter the season');
+// console.log(`${favoritesport} ${season}`);
+// let full = `My favourite sport is ${favoritesport}which is play every ${season}`;
+// console.log(full)
+
+
+
+// let myfood = prompt('Enter your best food');
+// let hometown = prompt('Enter your hown town');
+// console.log('my favorite food is'+''+''+'my home tow is'+'hometown')
+
+
+// Data Type
+// string:this data type is alphanumeric data
+
+
+// let address = '107, herbert Macauly Way, off \'unversity\' Road, Akoka Yaba, lagos state';
+// let person = "Mr john lives in "
+// console.log (typeof(address));
+// console.log(address[0]);
+// console.log(address.slice(0,30));
+// console.log(address.toUpperCase());
+// console.log(address.toLowerCase());
+// console.log(address.replace('lagos','ogun'))
+// console.log(address.length)
+// console.log(address.lastIndexOf('e'));
+// let x = address.split(' ');
+// console.log(x);
+// x.pop();
+// x.shift();
+// x.push('purple');
+// x.unshift('mango');
+// console.log(x);
+// console.log(x.reverse().join(' '));
+// console.log(person.concat(address));
+ // console.log(address.includes('Yaba');
+// console.log(person.includes('h'))
+// console.log(person.includes('Mr'))
+// console.log(address.includes('i'))
+// let mycolor = ['red','blue','orange','gold','pink'];
+// let x = mycolor;
+ // console.log(x.reverse().join(' '));
+//  x.pop()
+// x.shift()
+// x.push('lemon')
+// x.unshift('green')
+// console.log(x)
+
+
+
+// array data types
+// let mycolor = ['red','blue','orange','gold','pink'];
+// mycolor.splice(3, 0, 'welcome');
+// console.log(mycolor)
+// let x = mycolor[1];
+// console.log(x)
+
+
+
+
+let myData = [
+  {
+    name:'john',
+    city:'lagos',
+    LGA: 'mushin',
+  },
+  {
+    name:'Tola',
+    city:'ogun',
+    LGA: 'Ifo',
+  },
+  {
+    name:'Esther',
+    city:['Ekiti','Vola','ogun','osun'],
+    LGA: 'Akoko'
+  },
+  {
+    name:'mistura',
+    city:'Ilaro',
+    LGA: 'Ede',
+  },
+  {
+    name:'Emeka',
+    city:'Abia',
+    LGA: 'Rivers'
+  },
+]
+console.log(myData[2]['city'][2])
+let x = myData.pop()
+console.log(x)
+console.log(myData)
