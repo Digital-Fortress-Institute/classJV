@@ -149,7 +149,149 @@ let myData = [
         LGA:'Rivers'
     },
 ]
-console.log(myData[2]['city'][2])
+
+myData[2]['name']='Toke'
+console.log(myData)
+// console.log(myData[2]['city'][2]);
+// let num = ''
+// console.log(typeof(num))
+// let school = String()
+// console.log(typeof(school))
+// let digital = '26 Akowonjo Road Shasha bustop';
+// let ourClass = ' Radioboy';
+// console.log(digital.concat(ourClass));
+// console.log(digital + ourClass);
+// console.log(ourClass+ ' ' +'lives in'+ ' '+ ' ' +digital);
+// console.log(digital.indexOf('Road'));
+// console.log(digital.includes('Roa2'));
+// console.log(digital.toUpperCase());
+// let digital = '26 Akowonjo "Road" Shasha bustop';
+
+// console.log(digital.slice(2, 10));
+// console.log(digital.substring('3'));
+
+// console.log(digital.replace('bustop', 'Cresent'));
+// console.log(digital.split(' '));
+// console.log(digital.trimStart());
+// let newDigital = digital.split(' ')
+// console.log(newDigital.reverse().join(' '));
+// console.log(digital.startsWith('2'));
+// console.log(digital.endsWith('p'));
+// console.log(digital.repeat(3));
+// object
+
+// let employee= {
+//      name:'John',
+//     city:'Lagos',
+//     LGA:'Mushin'
+//  }
+// employee.
+
+
+
+// let items = [
+//     {
+//     "kind": "youtube#searchResult",
+//     "etag": "nQe1u6AuHVNAq-5c4q2vk_c82tM",
+//     "id": {
+//     "kind": "youtube#video",
+//     "videoId": "lu37BK3enHA"
+//     }
+//     },
+//     {
+//     "kind": "youtube#searchResult",
+//     "etag": "H2ku0aA59FaA_hn_kFxJUwS2DQc",
+//     "id": {
+//     "kind": "youtube#video",
+//     "videoId": "NPCC02SaJVg"
+//     }
+//     },
+//     {
+//     "kind": "youtube#searchResult",
+//     "etag": "fCHL7StFlvUtnoBNE8rTbR2PJ_A",
+//     "id": {
+//     "kind": "youtube#video",
+//     "videoId": "Dn89uthcqdo"
+//     }
+//     },
+//     {
+//     "kind": "youtube#searchResult",
+//     "etag": "DvPTHM08xG_NwHTa9lkNW6F-LEE",
+//     "id": {
+//     "kind": "youtube#video",
+//     "videoId": "qrIP_igi76U"
+//     }
+//     },
+//     {
+//     "kind": "youtube#searchResult",
+//     "etag": "wQLNIqbxeOne0EWH6bIW7PykhkI",
+//     "id": {
+//     "kind": "youtube#video",
+//     "videoId": "aH94xJtqj5A"
+//     }
+//     }
+//     ]
+    // console.log(items[0]);
+
+
+// numbers data types
+
+
+let num1 = 9;
+
+// console.log(typeof(num1))
+// console.log(num1.toFixed(2));
+// console.log(num1.toPrecision(3));
+
+
+// control flow
+// tanary operator
+
+// console.log(num1 >= 10 ? 'Yes':'no');
+
+let score =prompt('Enter your Score')
+score=score.toUpperCase()
+
+
+// if and else
+if(score == 'A'){
+    console.log('Excellent') 
+}else if(score == 'B'){
+    console.log('Second Grade')
+}else if( score == 'C'){
+    console.log('Third Grade')
+}else if(score == 'D'){
+    console.log('Fail')
+}else{
+    console.log('Unknown Result')
+}
+
+
+// switch case:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
