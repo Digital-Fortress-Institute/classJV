@@ -39,7 +39,6 @@
 // let firtName = prompt("Enter your first name");
 // let lastName = prompt('Enter your last name');
 // console.log(`${firtName} ${lastName}`);
-<<<<<<< HEAD
 // let firstNumber = parseInt(prompt('Enter your first number'));
 // let secondNumber = parseInt(prompt('Enter your second number'));
 // console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`)
@@ -80,10 +79,10 @@
 // Data Types
 // Strings: this data type is alphanumeric data. 
 
-let address = '107, Herbert Macauly Way, Off \'University\' Road, Akoka Yaba, Lagos State';
+// let address = '107, Herbert Macauly Way, Off \'University\' Road, Akoka Yaba, Lagos State';
 
-let person = "Mr John lives in "
-console.log(typeof(address));
+// let person = "Mr John lives in "
+// console.log(typeof(address));
 // console.log(address[5]);
 // console.log(address.slice(0, 30));
 // console.log(address.toUpperCase());
@@ -111,7 +110,7 @@ console.log(typeof(address));
 
 // array data types
 
-let myColor = ['red', 'blue', 'orange', 'gold', 'pink']
+// let myColor = ['red', 'blue', 'orange', 'gold', 'pink']
 // pop();
 // shift();
 // unshift();
@@ -122,37 +121,37 @@ let myColor = ['red', 'blue', 'orange', 'gold', 'pink']
 // console.log(myColor)
 
 
-let myData = [
-    {
-        name:'John',
-        city:'Lagos',
-        LGA:'Mushin'
-    },
-    {
-        name:'Tola',
-        city:'Ogun',
-        img: './hero-abs-2.png',
-        LGA:'Ifo'
-    },
-    {
-        name:'Esther',
-        city:['Ekiti', 'Yola', 'Ogun', 'Osun'],
-        LGA:'Akoko'
-    },
-    {
-        name:'Mistura',
-        city:'Ilaro',
-        LGA:'Ede'
-    },
-    {
-        name:'Emeka',
-        city:'Abia',
-        LGA:'Rivers'
-    },
-]
+// let myData = [
+//     {
+//         name:'John',
+//         city:'Lagos',
+//         LGA:'Mushin'
+//     },
+//     {
+//         name:'Tola',
+//         city:'Ogun',
+//         img: './hero-abs-2.png',
+//         LGA:'Ifo'
+//     },
+//     {
+//         name:'Esther',
+//         city:['Ekiti', 'Yola', 'Ogun', 'Osun'],
+//         LGA:'Akoko'
+//     },
+//     {
+//         name:'Mistura',
+//         city:'Ilaro',
+//         LGA:'Ede'
+//     },
+//     {
+//         name:'Emeka',
+//         city:'Abia',
+//         LGA:'Rivers'
+//     },
+// ]
 
-myData[2]['name']='Toke'
-console.log(myData)
+// myData[2]['name']='Toke'
+// console.log(myData)
 // console.log(myData[2]['city'][2]);
 // let num = ''
 // console.log(typeof(num))
@@ -238,7 +237,7 @@ console.log(myData)
 // numbers data types
 
 
-let num1 = 9;
+// let num1 = 9;
 
 // console.log(typeof(num1))
 // console.log(num1.toFixed(2));
@@ -250,25 +249,45 @@ let num1 = 9;
 
 // console.log(num1 >= 10 ? 'Yes':'no');
 
-let score =prompt('Enter your Score')
-score=score.toUpperCase()
+// let score =prompt('Enter your Score')
+// score=score.toUpperCase()
 
 
 // if and else
-if(score == 'A'){
-    console.log('Excellent') 
-}else if(score == 'B'){
-    console.log('Second Grade')
-}else if( score == 'C'){
-    console.log('Third Grade')
-}else if(score == 'D'){
-    console.log('Fail')
-}else{
-    console.log('Unknown Result')
-}
+// if(score == 'A'){
+//     console.log('Excellent') 
+// }else if(score == 'B'){
+//     console.log('Second Grade')
+// }else if( score == 'C'){
+//     console.log('Third Grade')
+// }else if(score == 'D'){
+//     console.log('Fail')
+// }else{
+//     console.log('Unknown Result')
+// }
+
 
 
 // switch case:
+let score =prompt('Enter your Score')
+score=score.toUpperCase()
+
+switch (true){
+    case score == 'A':
+        console.log('Excellent');
+    break;
+    case score == 'B':
+        console.log('Second Grade');
+    break;
+    case score == 'C':
+        console.log('Grade C');
+    break;
+    case score == 'D':
+        console.log('Fail');
+    break;
+    default:
+        console.log('Unknown Results')
+}
 
 
 
@@ -311,9 +330,7 @@ if(score == 'A'){
 
 
 
-=======
 let firstNumber = parseInt(prompt('Enter your first number'));
 let secondNumber = parseInt(prompt('Enter your second number'));
 console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`)
->>>>>>> a19004de94df475ee45ef7f57825033616f765d9
 
