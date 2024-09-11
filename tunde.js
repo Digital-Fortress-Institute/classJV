@@ -269,43 +269,138 @@
 
 
 // switch case:
-let score =prompt('Enter your Score')
-score=score.toUpperCase()
+// let score =prompt('Enter your Score')
+// score=score.toUpperCase()
 
-switch (true){
-    case score == 'A':
-        console.log('Excellent');
-    break;
-    case score == 'B':
-        console.log('Second Grade');
-    break;
-    case score == 'C':
-        console.log('Grade C');
-    break;
-    case score == 'D':
-        console.log('Fail');
-    break;
-    default:
-        console.log('Unknown Results')
-}
+// switch (true){
+//     case score == 'A':
+//         console.log('Excellent');
+//     break;
+//     case score == 'B':
+//         console.log('Second Grade');
+//     break;
+//     case score == 'C':
+//         console.log('Grade C');
+//     break;
+//     case score == 'D':
+//         console.log('Fail');
+//     break;
+//     default:
+//         console.log('Unknown Results')
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// boolean
+// let tunde = false;
+// console.log(typeof(tunde))
+// comparison operators > < >= <= == === !=;
+// let num1 = '10'
+// let num2 = 10
+// console.log(num1 > num2);
+// console.log(num1 < num2);
+// console.log(num1 >= num2);
+// console.log(num1 <= num2);
+// console.log(num1 != num2);
+// console.log(num1 == num2);
+// console.log(num1 === num2)
 
 
+// arithemetic operator +, -, +=, -=, ++, --, *, /, %, **
+
+let num1 = 15;
+let num2 = 10;
+// console.log(num1 + num2);
+// console.log(num1 += num2);
+// console.log(num1 - num2);
+// console.log(num1 -= num2);
+// console.log(++num1);
+// console.log(--num2);
+// console.log(num1 * num2);
+// console.log(num1 / num2);
+// console.log(num1 ** num2);
+// console.log(num1 % num2);
+
+
+// logical operator || &&
+
+// let age = 18;
+// let country = "Nigeria"
+
+// if (age >= 18 || country == 'Ghana'){
+//     console.log('You can vote');
+
+// }else{
+//     console.log('you cannot vote')
+// }
+
+// functions
+// function tunde(){
+//     console.log('Good morning')
+// }
+// tunde();
+// function myclass(x,y){
+//     return x + y
+// }
+// console.log(myclass(10, 30));
+
+// ES6
+
+// let tunde = (x) => x** 2;
+// console.log(tunde(20)) 
+
+// const myclass = ()=> {
+//     console.log('Welcome')
+// }
+// myclass();
+
+// const tunde2 = (u, v) => {
+//     return u + v 
+// }
+
+// setTimeout(() => {
+//     console.log(tunde2(10, 50))
+// }, 9000)
+
+// setInterval(() => {
+//     console.log(tunde2(10, 50))
+// }, 5000);
+
+// let score = [20, 30, 15, 10, 50, 24, 53, 19]
+// console.log(score.filter((tunde) => tunde >= 15))
+// console.log(score.reduce((x, y) => x + y));
+
+
+// loops
+
+// while loop
+// let x = 0;
+// while(x <= 9){
+//     x++
+//     console.log(x)
+// }
+
+// for loops
+// for(let i=0; i<=10; i++){
+//     console.log(i)
+// }
+
+
+
+// DOM
+
+
+// let mydom = document.getElementById('dom');
+// let mydom2 = document.getElementsByClassName('dom')[0]
+// let mydom3 = document.getElementsByClassName('dom')[1]
+// let myclass = document.querySelector('.dom')
+// mydom.innerHTML='Welcome here';
+// myclass.innerHTML='JavaScripts class';
+// myclass.style.backgroundColor='red';
+// myclass.style.color='white';
+// mydom3.innerHTML='JavaScripts class'
+
+let tunde = document.createElement('h1')
+tunde.textContent = 'My Javascripts';
+document.body.append(tunde)
 
 
 
@@ -330,7 +425,33 @@ switch (true){
 
 
 
-let firstNumber = parseInt(prompt('Enter your first number'));
-let secondNumber = parseInt(prompt('Enter your second number'));
-console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 
