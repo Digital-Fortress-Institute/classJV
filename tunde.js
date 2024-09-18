@@ -398,9 +398,133 @@ let num2 = 10;
 // myclass.style.color='white';
 // mydom3.innerHTML='JavaScripts class'
 
-let tunde = document.createElement('h1')
-tunde.textContent = 'My Javascripts';
-document.body.append(tunde)
+// let tunde = document.createElement('h1')
+// tunde.textContent = 'My Javascripts';
+// document.body.append(tunde);
+
+
+
+// let inputNum = parseInt(prompt('Enter a number'));
+
+// if(inputNum % 2 == 0){
+//     console.log('This number is even')
+
+// }else if(inputNum % 3 == 0){
+//     console.log('This is divisible by three')
+// }else{
+//     console.log(inputNum)
+// }
+
+
+// let age = parseInt(prompt('Please enter your age'));
+// console.log(age >= 18 ? 'Yes you can vote': 'No you can not vote');
+// if(age >= 18){
+//     console.log('you can vote')
+// }else{
+//     console.log('You cannot vote')
+// }
+
+
+
+// let myNumber = parseInt(prompt('Ente your number'))
+// if (myNumber > 0){
+//     console.log('Positive')
+// }else if(myNumber < 0){
+//     console.log('Negative')
+// }else{
+//     console.log('Zero')
+// }
+
+
+// let x = 0
+// let product = parseInt(prompt('Enter a number'))
+
+// while(x <= 11){
+//     x++
+//     console.log(`${product} x ${x} = ${product * x}`)
+  
+
+// }
+
+//  let product = parseInt(prompt('Enter a number'))
+// for(let i = 0; i <=12; i++){
+//     console.log(`${product} x ${i} = ${product * i}`)
+
+// }
+
+
+// let num11 = parseInt(prompt('Enter your first number'));
+// let num22 = parseInt(prompt('Enter your second number'));
+// if(num11 > num22){
+//     console.log(`${num11} is greater that num22`)
+// }else{
+//     console.log(`${num22} is greater that num11`)
+// }
+
+
+
+// let salary = parseInt(prompt('Enter your salary amount'));
+// let my10percent = salary * 10 / 100
+// let my20percent = salary * 20 / 100
+// let my30percent = salary * 30 / 100 
+
+// if (salary <= 5000){
+//     console.log(`you current salary is ${salary} while tax of ten percent was deducted your take home will be ${salary - my10percent}  `)
+// }else if( salary >= 5001 && salary <=10000 ){
+//     console.log(`you current salary is ${salary} while tax of twenty percent was deducted your take home will be ${salary - my20percent}  `)
+// }else{
+//     console.log(`you current salary is ${salary} while tax of thirty percent was deducted your take home will be ${salary - my30percent}  `)
+// }
+
+
+// let num11 = parseInt(prompt('Enter your first number'));
+
+// let num22 = parseInt(prompt('Enter your second number'));
+
+// if(num11 + num22 > 100){
+//     console.log('Sum is greater than 100')
+// }else{
+//     console.log('Sum is not greater than 100')
+// }
+
+
+
+// let num11 = parseInt(prompt('Enter your first number'));
+// let num22 = parseInt(prompt('Enter your second number'));
+// let num33 =  parseInt(prompt('Enter your third number'));
+// if(num11 > num22 && num11 > num33){
+//     console.log(` the value of first number is ${num11} which is greater`);
+// }else if (num22 > num11 && num22 > num33){
+//     console.log(` the value of second number is ${num22} which is greater`);
+// }else{
+//     console.log(` the value of third number is ${num33} which is greater`);
+// }
+
+// let age = parseInt(prompt('Enter your age'));
+
+// if(age > 60){
+//     console.log('you are eligible for senior citizen discount')
+// }else{
+//     console.log('you are not eligible for senior citizen discount')
+// }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
