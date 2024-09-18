@@ -506,7 +506,40 @@ let num2 = 10;
 //     console.log('you are eligible for senior citizen discount')
 // }else{
 //     console.log('you are not eligible for senior citizen discount')
+
+
+
+
+// event handling
+
+// let mybtn = document.querySelector('.id');
+// let mydisplay = document.querySelector('.display')
+
+// mybtn.addEventListener('click', () => {
+//     console.log('Welcome')
+//     mydisplay.innerHTML='Welcome'
+// });
+
+// let mybtn = document.querySelector('.plus');
+// let mydisplay = document.querySelector('.mycount');
+// let myminus = document.querySelector('.minus');
+// let count = 0;
+// mybtn.addEventListener('click', tunde);
+
+// function tunde(){
+//     console.log('you click on plus sign');
+//     mydisplay.innerHTML = ++count
 // }
+
+
+
+// myminus.addEventListener('click', tunde2);
+
+// function tunde2(){
+//     console.log('you click on plus sign');
+//     mydisplay.innerHTML = --count
+// }
+
 
    
 
@@ -578,4 +611,4 @@ let num2 = 10;
 
 
 
-// 
+ 
